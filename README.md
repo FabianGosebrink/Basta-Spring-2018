@@ -8,11 +8,6 @@ Server and Client are completely seperated that you can exchange the endpoint ea
 
 ## Prerequisites
 
-Please install cordova and the trash-cli globally to handle cross platform for the [AngularCLI-Demo](https://github.com/FabianGosebrink/ASPNET-ASPNETCore-Angular-Ngrx/tree/master/AngularCLI)
-
-`npm install cordova -g`
-
-* [XCode](https://developer.apple.com/xcode/download/)
 * [Android SDK](https://developer.android.com/sdk/index.html)
 * [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)
 * Download and install [ImageMagick](http://www.imagemagick.org/script/download.php) (base toolkit for image processing, used here for splash screen and icon generation)
