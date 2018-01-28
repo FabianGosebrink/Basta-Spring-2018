@@ -1,8 +1,6 @@
-# ASP.NET Core WebAPI / Angular Demo with Ngrx store & Ngrx effects, Component based design & Lazy Loading runnable on every Platform (Cross Platform)
+# ASP.NET Core WebAPI / Angular Demo with Cordova, Electron (Cross Platform) for the BASTA Spring 2018
 
-This repository offers you a demo application implemented with the AngularCLI and an endpoint using ASP.NET Core WebAPI.
-
-The application comes with lazy loading, forms, custom validation, routing , ngrx store, ngrx effects, etc.
+This repository offers you a demo application implemented with the AngularCLI and an endpoint using ASP.NET Core WebAPI. You can build it for every platform: Mobile, Desktop & Web.
 
 Server and Client are completely seperated that you can exchange the endpoint easily.
 
@@ -55,8 +53,8 @@ You can see an Angular Demo with all the techniques combined here (running on Az
 
 ### Home
 
-![ASP.NET Core Angular Demo](.github/screen1.jpg "Screen1")
+![ASP.NET Core Angular Demo](.github/screen1.jpg 'Screen1')
 
 ### Form
 
-![ASP.NET Core Angular Demo](.github/screen2.jpg "Screen2")
+![ASP.NET Core Angular Demo](.github/screen2.jpg 'Screen2')
