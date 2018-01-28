@@ -33,28 +33,4 @@ You can build Cross Platform by typing
 
 `npm run build-all`
 
-for building Web, Desktop (Windows and Linux) and Apps for Android and Windows Phone in the .dist folder.
-
-# Demo
-
-You can see an Angular Demo with all the techniques combined here (running on Azure)
-
-## Frontend
-
-[http://foodapiui.azurewebsites.net/](http://foodapiui.azurewebsites.net/)
-
-## Backend
-
-[http://foodapi4demo.azurewebsites.net/](http://foodapi4demo.azurewebsites.net/)
-
-![DemoGif](.github/foodApiAzure.gif)
-
-## Screens
-
-### Home
-
-![ASP.NET Core Angular Demo](.github/screen1.jpg 'Screen1')
-
-### Form
-
-![ASP.NET Core Angular Demo](.github/screen2.jpg 'Screen2')
+for building Web, Desktop (Windows and Linux) and Apps for Android in the .dist folder.
