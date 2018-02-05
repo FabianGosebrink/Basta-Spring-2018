@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Newtonsoft.Json.Serialization;
 using Microsoft.AspNetCore.Identity;
 using IdentityServer4.AccessTokenValidation;
+using FoodAPICore.Hubs;
 
 namespace FoodAPICore
 {
@@ -75,6 +76,8 @@ namespace FoodAPICore
                 options.Password.RequireUppercase = false;
                 options.Password.RequireLowercase = false;
             });
+
+            services.AddSignalR();
 
             // Claims-Based Authorization: role claims.
             services.AddAuthorization(options =>
@@ -165,7 +168,10 @@ namespace FoodAPICore
             app.UseDefaultFiles();
 
             app.EnsureSeedData();
-
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<FoodHub>("foodhub");
+            });
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
